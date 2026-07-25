@@ -21,23 +21,26 @@ A tested Python access-governance tool featuring:
 
 ### hACL ITDR Detector
 
-The first detection-engineering milestone is complete. It includes:
+A separate detection-engineering project now featuring:
 
 - Sliding-window password-spray detection mapped to MITRE ATT&CK T1110.003
 - Windows authentication event parsing for 4625, 4624 and 4740
 - Employee, unknown-account and privileged-account correlation
 - Successful-logon and account-lockout correlation
-- Structured JSONL security alerts
+- Trusted SHA-256 baselines for protected IPv4 allow lists
+- Added, removed, replaced, missing and malformed allow-list detection
+- Versioned JSONL security alerts
+- Deterministic JSONL and Markdown investigation timelines
 - Sigma and Microsoft Sentinel KQL detection drafts
-- 35 automated tests, Python 3.12/3.13 CI and CodeQL
+- 65 automated tests, Python 3.12/3.13 CI and CodeQL
 
 [Review the detector](https://github.com/theluckydraco-stack/hacl-itdr-detector)
 
-Next milestone: hACL allow-list integrity monitoring and investigation-timeline generation.
+Next milestone: validate the Sigma and KQL drafts against representative Windows schemas and automate a full investigation report.
 
 ## Technical focus
 
-Python · Identity Security · ITDR · Detection Engineering · Access Control · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
+Python · Identity Security · ITDR · Detection Engineering · Access Control · File Integrity · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
 
 ## Current credentials
 
