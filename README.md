@@ -2,7 +2,7 @@
 
 Cybersecurity engineer focused on Python security automation, identity-centred defensive security and detection engineering.
 
-## Engineering work
+## Security Engineering work
 
 ### hACL — Healthcare Access List Manager
 
