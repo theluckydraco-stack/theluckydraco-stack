@@ -2,6 +2,27 @@
 
 Cybersecurity engineer focused on Python security automation, identity-centred defensive security and detection engineering.
 
+## Featured project
+
+### MISP Threat Intelligence Investigation Workflow
+
+A practical threat-intelligence project showing how I would use MISP when a security question or suspected incident needs to be turned into defensive action.
+
+The workflow demonstrates how to:
+
+- start with a concrete intelligence requirement or incident question;
+- search MISP for the most relevant event rather than simply collecting the largest volume of indicators;
+- pivot through Events, Attributes, Tags, Galaxies, ATT&CK mappings and external references;
+- validate and enrich technical findings with underlying threat research;
+- translate IOCs into SIEM, DNS, proxy, firewall and EDR hunts;
+- translate ATT&CK behaviours into detection and telemetry requirements;
+- turn vulnerability intelligence into remediation plus compromise assessment;
+- use context, relevance and analyst judgment to decide whether to hunt, detect, patch, block, investigate or report.
+
+The investigation includes LockBit and Babuk ransomware intelligence, Turla ATT&CK behaviour, Rhombus DDoS botnet activity, and the exploitation of Mitel MiVoice infrastructure associated with Lorenz ransomware reporting.
+
+[View the MISP Threat Intelligence project](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/misp-threat-intelligence-platform-lab)
+
 ## Security Engineering work
 
 ### hACL — Healthcare Access List Manager
@@ -54,6 +75,7 @@ Python · Identity Security · ITDR · Detection Engineering · Access Control �
 ## Links
 
 - [LinkedIn](https://www.linkedin.com/in/kos09)
+- [MISP Threat Intelligence Investigation Workflow](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/misp-threat-intelligence-platform-lab)
 - [Security Engineering Portfolio](https://github.com/theluckydraco-stack/python-security-engineering-portfolio)
 - [hACL ITDR Detector](https://github.com/theluckydraco-stack/hacl-itdr-detector)
 - [Blue Team Portfolio](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-)
