@@ -2,26 +2,46 @@
 
 Cybersecurity engineer focused on Python security automation, identity-centred defensive security and detection engineering.
 
-## Featured project
+## Featured projects
+
+### Digital Financial Services Threat Landscape
+
+A threat-informed defensive research project focused on how attacks against banks, fintechs, payment platforms and cryptocurrency services move through trusted identities, cloud and SaaS access, third parties, software dependencies, support processes and payment workflows.
+
+The project connects current and historical financial-sector threat activity to the evidence a defender would need to see it: identity and MFA records, endpoint and network telemetry, cloud and SaaS audit logs, developer activity, supplier access, customer-support records, payment events and fraud signals. It includes actor and campaign analysis, MITRE ATT&CK mapping, financial-SOC telemetry requirements and detection specifications designed around recurring attack paths rather than actor names alone.
+
+[View the Digital Financial Services Threat Landscape](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/financial-sector-threat-landscape)
 
 ### MISP Threat Intelligence Investigation Workflow
 
 A practical threat-intelligence project showing how I would use MISP when a security question or suspected incident needs to be turned into defensive action.
 
-The workflow demonstrates how to:
+The workflow moves from an intelligence requirement to the most relevant MISP Event, then through Attributes, Tags, Galaxies, ATT&CK mappings and external research. The resulting intelligence is translated into SIEM, DNS, proxy, firewall and EDR hunts, detection requirements, vulnerability remediation and compromise assessment.
 
-- start with a concrete intelligence requirement or incident question;
-- search MISP for the most relevant event rather than simply collecting the largest volume of indicators;
-- pivot through Events, Attributes, Tags, Galaxies, ATT&CK mappings and external references;
-- validate and enrich technical findings with underlying threat research;
-- translate IOCs into SIEM, DNS, proxy, firewall and EDR hunts;
-- translate ATT&CK behaviours into detection and telemetry requirements;
-- turn vulnerability intelligence into remediation plus compromise assessment;
-- use context, relevance and analyst judgment to decide whether to hunt, detect, patch, block, investigate or report.
+The investigation includes LockBit and Babuk ransomware intelligence, Turla ATT&CK behaviour, Rhombus DDoS botnet activity, and exploitation of Mitel MiVoice infrastructure associated with Lorenz ransomware reporting.
 
-The investigation includes LockBit and Babuk ransomware intelligence, Turla ATT&CK behaviour, Rhombus DDoS botnet activity, and the exploitation of Mitel MiVoice infrastructure associated with Lorenz ransomware reporting.
+[View the MISP Threat Intelligence Investigation Workflow](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/misp-threat-intelligence-platform-lab)
 
-[View the MISP Threat Intelligence project](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/misp-threat-intelligence-platform-lab)
+### How the threat-intelligence work connects
+
+```text
+Financial-sector threat landscape
+        ↓
+Which attack paths and behaviours matter?
+        ↓
+MISP / threat-intelligence workflow
+        ↓
+What relevant intelligence can be located,
+validated and operationalised?
+        ↓
+Detection validation — next hands-on phase
+        ↓
+Required telemetry → rule/query → alert
+        ↓
+Investigation → tuning → validated detection
+```
+
+The next implementation phase is to validate a small number of the financial-SOC detection specifications against controlled laboratory telemetry, beginning with Windows account and privilege-change correlation before moving into cloud identity, SaaS and payment-workflow scenarios.
 
 ## Security Engineering work
 
@@ -63,7 +83,7 @@ Next milestone: add further identity detections and validate the detection conte
 
 ## Technical focus
 
-Python · Identity Security · ITDR · Detection Engineering · Access Control · File Integrity · Windows Security Events · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
+Python · Identity Security · ITDR · Detection Engineering · Threat Intelligence · Financial-Sector Security · Access Control · File Integrity · Windows Security Events · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
 
 ## Current credentials
 
@@ -75,6 +95,7 @@ Python · Identity Security · ITDR · Detection Engineering · Access Control �
 ## Links
 
 - [LinkedIn](https://www.linkedin.com/in/kos09)
+- [Digital Financial Services Threat Landscape](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/financial-sector-threat-landscape)
 - [MISP Threat Intelligence Investigation Workflow](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/misp-threat-intelligence-platform-lab)
 - [Security Engineering Portfolio](https://github.com/theluckydraco-stack/python-security-engineering-portfolio)
 - [hACL ITDR Detector](https://github.com/theluckydraco-stack/hacl-itdr-detector)
