@@ -43,6 +43,14 @@ Investigation → tuning → validated detection
 
 The next implementation phase is to validate a small number of the financial-SOC detection specifications against controlled laboratory telemetry, beginning with Windows account and privilege-change correlation before moving into cloud identity, SaaS and payment-workflow scenarios.
 
+### Forensic Evidence Acquisition and Recovery
+
+A controlled digital-forensics workflow focused on acquiring evidence at the right scope, verifying acquisition integrity, identifying filesystem structures, extracting metadata, and recovering deleted content.
+
+The project combines whole-memory capture, process-specific dumping, E01 physical-disk imaging and verification, targeted KAPE collection, filesystem identification, metadata analysis, file carving, and cryptographic hashing. It also records the evidentiary limits of the work rather than treating tool output as proof of a broader incident.
+
+[View the Forensic Evidence Acquisition and Recovery project](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/digital-forensics/forensic-evidence-acquisition-and-recovery)
+
 ## Security Engineering work
 
 ### hACL — Healthcare Access List Manager
@@ -83,7 +91,7 @@ Next milestone: add further identity detections and validate the detection conte
 
 ## Technical focus
 
-Python · Identity Security · ITDR · Detection Engineering · Threat Intelligence · Financial-Sector Security · Access Control · File Integrity · Windows Security Events · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
+Python · Identity Security · ITDR · Detection Engineering · Threat Intelligence · Digital Forensics · Financial-Sector Security · Access Control · File Integrity · Windows Security Events · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
 
 ## Current credentials
 
@@ -97,6 +105,7 @@ Python · Identity Security · ITDR · Detection Engineering · Threat Intellige
 - [LinkedIn](https://www.linkedin.com/in/kos09)
 - [Digital Financial Services Threat Landscape](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/financial-sector-threat-landscape)
 - [MISP Threat Intelligence Investigation Workflow](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/misp-threat-intelligence-platform-lab)
+- [Forensic Evidence Acquisition and Recovery](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/digital-forensics/forensic-evidence-acquisition-and-recovery)
 - [Security Engineering Portfolio](https://github.com/theluckydraco-stack/python-security-engineering-portfolio)
 - [hACL ITDR Detector](https://github.com/theluckydraco-stack/hacl-itdr-detector)
 - [Blue Team Portfolio](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-)
