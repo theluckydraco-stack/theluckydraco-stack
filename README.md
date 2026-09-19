@@ -24,22 +24,7 @@ The investigation includes LockBit and Babuk ransomware intelligence, Turla ATT&
 
 ### How the threat-intelligence work connects
 
-```text
-Financial-sector threat landscape
-        ↓
-Which attack paths and behaviours matter?
-        ↓
-MISP / threat-intelligence workflow
-        ↓
-What relevant intelligence can be located,
-validated and operationalised?
-        ↓
-Detection validation — next hands-on phase
-        ↓
-Required telemetry → rule/query → alert
-        ↓
-Investigation → tuning → validated detection
-```
+Financial-sector threat landscape → relevant attack paths and behaviours → MISP / threat-intelligence workflow → validated intelligence → detection requirements → investigation and tuning.
 
 The next implementation phase is to validate a small number of the financial-SOC detection specifications against controlled laboratory telemetry, beginning with Windows account and privilege-change correlation before moving into cloud identity, SaaS and payment-workflow scenarios.
 
@@ -50,6 +35,14 @@ A controlled digital-forensics workflow focused on acquiring evidence at the rig
 The project combines whole-memory capture, process-specific dumping, E01 physical-disk imaging and verification, targeted KAPE collection, filesystem identification, metadata analysis, file carving, and cryptographic hashing. It also records the evidentiary limits of the work rather than treating tool output as proof of a broader incident.
 
 [View the Forensic Evidence Acquisition and Recovery project](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/digital-forensics/forensic-evidence-acquisition-and-recovery)
+
+### Memory-Based Incident Triage with Volatility
+
+A practical memory-forensics workflow using Volatility 2 and Volatility 3 to move from process inventory to parent-child analysis, command-line context, network pivots, privilege interpretation, process extraction, and artifact hashing.
+
+The project focuses on how volatile evidence can develop an investigative lead while keeping process anomalies, network connections, and token privileges separate from conclusions that require corroboration.
+
+[View the Memory-Based Incident Triage project](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/digital-forensics/memory-based-incident-triage)
 
 ## Security Engineering work
 
@@ -91,7 +84,7 @@ Next milestone: add further identity detections and validate the detection conte
 
 ## Technical focus
 
-Python · Identity Security · ITDR · Detection Engineering · Threat Intelligence · Digital Forensics · Financial-Sector Security · Access Control · File Integrity · Windows Security Events · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
+Python · Identity Security · ITDR · Detection Engineering · Threat Intelligence · Digital Forensics · Memory Forensics · Financial-Sector Security · Access Control · File Integrity · Windows Security Events · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
 
 ## Current credentials
 
@@ -106,6 +99,7 @@ Python · Identity Security · ITDR · Detection Engineering · Threat Intellige
 - [Digital Financial Services Threat Landscape](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/financial-sector-threat-landscape)
 - [MISP Threat Intelligence Investigation Workflow](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/misp-threat-intelligence-platform-lab)
 - [Forensic Evidence Acquisition and Recovery](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/digital-forensics/forensic-evidence-acquisition-and-recovery)
+- [Memory-Based Incident Triage with Volatility](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/digital-forensics/memory-based-incident-triage)
 - [Security Engineering Portfolio](https://github.com/theluckydraco-stack/python-security-engineering-portfolio)
 - [hACL ITDR Detector](https://github.com/theluckydraco-stack/hacl-itdr-detector)
 - [Blue Team Portfolio](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-)
