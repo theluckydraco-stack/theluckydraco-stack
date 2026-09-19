@@ -28,6 +28,14 @@ Financial-sector threat landscape → relevant attack paths and behaviours → M
 
 The next implementation phase is to validate a small number of the financial-SOC detection specifications against controlled laboratory telemetry, beginning with Windows account and privilege-change correlation before moving into cloud identity, SaaS and payment-workflow scenarios.
 
+### Windows Security Event Account-Activity Investigation
+
+A Windows Security event investigation focused on reconstructing account creation, group membership changes, and a subsequent privileged logon from EVTX evidence.
+
+The project demonstrates how Event IDs provide the event type, while **SIDs** allow the same security principal to be followed across account and group-management events and **Logon IDs** allow one session to be correlated across logon and privilege events. The investigation treats privileged group membership and special-logon events as evidence requiring context rather than automatic proof of compromise.
+
+[View the Windows Security Event Account-Activity Investigation](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/siem/windows-event-log-account-activity-investigation)
+
 ### Forensic Evidence Acquisition and Recovery
 
 A controlled digital-forensics workflow focused on acquiring evidence at the right scope, verifying acquisition integrity, identifying filesystem structures, extracting metadata, and recovering deleted content.
@@ -84,7 +92,7 @@ Next milestone: add further identity detections and validate the detection conte
 
 ## Technical focus
 
-Python · Identity Security · ITDR · Detection Engineering · Threat Intelligence · Digital Forensics · Memory Forensics · Financial-Sector Security · Access Control · File Integrity · Windows Security Events · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
+Python · Identity Security · ITDR · Detection Engineering · SIEM · Windows Security Event Analysis · Threat Intelligence · Digital Forensics · Memory Forensics · Financial-Sector Security · Access Control · File Integrity · Linux · PowerShell · MITRE ATT&CK · Sigma · KQL
 
 ## Current credentials
 
@@ -100,6 +108,7 @@ Python · Identity Security · ITDR · Detection Engineering · Threat Intellige
 - [MISP Threat Intelligence Investigation Workflow](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/threat-intelligence/misp-threat-intelligence-platform-lab)
 - [Forensic Evidence Acquisition and Recovery](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/digital-forensics/forensic-evidence-acquisition-and-recovery)
 - [Memory-Based Incident Triage with Volatility](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/digital-forensics/memory-based-incident-triage)
+- [Windows Security Event Account-Activity Investigation](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-/tree/main/siem/windows-event-log-account-activity-investigation)
 - [Security Engineering Portfolio](https://github.com/theluckydraco-stack/python-security-engineering-portfolio)
 - [hACL ITDR Detector](https://github.com/theluckydraco-stack/hacl-itdr-detector)
 - [Blue Team Portfolio](https://github.com/theluckydraco-stack/blue-team-level-1-portfolio-)
